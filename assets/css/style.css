@@ -1,0 +1,368 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+	background-color: #1d1b20;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+	padding: 50px 80px 50px 0;
+}
+
+ul li {
+	list-style: none;
+	text-decoration: none;
+}
+
+#menu {
+	height: 45px;
+	object-fit: contain;
+	background-color: #252429; 
+}
+
+#menu .logo {
+	float: left;
+	font-size: 14px;
+	object-fit: contain;
+	color: #fff;
+	margin: 3px 10px 0 0;
+}
+
+.menu {
+	padding: 14px;
+	float: left;
+    width: 800px;
+    margin-left: 4px;
+}
+
+.Menu-Item {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: var(--popping-text);
+	color: #969698;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.Menu-Item:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.Menu-Item:hover i {
+	color: #25fc83;
+}
+
+.Menu-Item i,
+#menu .logo i {
+	margin-right: 10px;
+}
+
+#menu .logo i {
+	transform: rotate(-36deg);
+    display: inline-block;
+}
+
+.menu-button {
+	width: 242px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #1d1b20;
+	margin: 10px 5px;
+	border: none;
+	color: #969698;
+}
+
+.menu-button option {
+	width: 168px;
+	height: 17px;
+	font-size: 13px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.2px;
+	text-align: right;
+	color: #fff;
+}
+
+.menu-button option i {
+	color: #25fc83;
+	padding-right: 10px;
+}
+
+.select-menu {
+	float: right;
+	width: 345px;
+	padding: 8px;
+}
+
+.select2-selection {
+	border: none !important;
+    background: #1d1b20 !important;
+    color: #fff !important;
+}
+
+.select2-selection__rendered {
+	color: #fff !important;
+}
+
+.select2-selection__rendered p {
+	font-size: 9pt !important;
+}
+
+.select-menu .settings {
+	background: #1d1b20;
+	color: #fff;
+	margin: 0 5px;
+	font-size: 16px;
+    padding: 5px 11px 8px 11px;
+	border-radius: 4px;
+	transition: 0.5s;
+}
+
+.select-menu .log-out {
+	background: #1d1b20;
+	color: #fff;
+	font-size: 16px;
+    padding: 5px 11px 8px 11px;
+	border-radius: 4px;
+	transition: 0.5s;
+}
+
+.select-menu .settings:hover,
+.select-menu .log-out:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.img .e-commerce {
+	width: 100%;
+	height: auto;
+}
+
+.metrics {
+	margin-bottom: 16px; 
+}
+
+.metrics h1 {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+  	color: #fff;
+  	margin-top: 8px;
+}
+
+.metrics .from h1,
+.metrics .to h1 {
+	font-size: 14px;
+	margin: 0;
+}
+
+.metrics .from span,
+.metrics .to span {
+	float: left;
+    margin: 0 9px 0 0px;
+    color: #545456;
+}
+
+.metrics .from-to {
+	border: 1px solid #333139;
+	padding: 8px;
+}
+
+.metrics .from {
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #222126;
+}
+
+.metrics .to {
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #222126;
+}
+
+.after-metrics {
+	background: #252429;
+    padding: 21px 10px;
+    color: #fff;
+}
+
+.after-metrics h1 {
+	font-weight: bold;
+    font-size: 50px;
+}
+
+.after-metrics h1 span {
+	color: #25fc83;
+}
+
+.after-metrics p {
+	margin: 0;
+    text-transform: uppercase;
+    color: #969698;
+}
+
+.after-metrics img {
+    padding-top: 10px;
+}
+
+.after-metrics .right-section .col-lg-1 {
+	padding: 0;
+}
+
+.after-metrics .right-section .col-lg-4 p {
+	text-align: right;
+	padding-top: 8px;
+}
+
+.after-metrics .right-section .col-lg-4 p span {
+	color: #25fc83;
+}
+
+.after-metrics .right-section p {
+	text-transform: none;
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+}
+
+.after-metrics .right-section span {
+	color: #4A494D;
+}
+
+.upsells {
+    color: #fff;
+    margin-top: 15px;
+}
+
+.upsells-amount {
+	background: #252429;
+	padding: 15px;
+}
+
+.upsells-amount .amount,
+.upsells-amount .shown {
+	margin: 10px;
+}
+
+.upsells .email {
+	width: 47%;
+	float: right;
+}
+
+.upsells .email .row {
+	padding: 20px 0;
+    background: #252429;
+    margin-bottom: 20px;
+}
+
+.upsells .email h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.upsells-amount .amount h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.upsells-amount .amount h1 i {
+	color: #25fc83;
+	padding-right: 10px;
+}
+
+.upsells-amount .amount span {
+	text-transform: uppercase;
+	color: #969698;
+	margin: 15px 0;
+	display: block;
+}
+
+.upsells-amount .col-lg-6 {
+	padding: 0 0 10px 0;
+}
+
+.upsells-amount .shown p {
+	margin: 0;
+	font-weight: bold;
+}
+
+.upsells-amount .shown span {
+	color: #969698;
+}
+
+.upsells-amount .shown .procent {
+	text-align: right;
+	padding-top: 11px;
+}
+
+.upsells-amount .shown .procent span {
+	color: #25fc83;
+}
+
+.email-recovery .ion-ios-email-outline {
+	font-size: 30px;
+}
+
+.email-recovery h1 {
+	font-size: 21px;
+}
+
+.email-recovery span {
+	text-transform: uppercase;
+	color: #969698;
+	font-size: 12px;
+}
+
+.messenger-recovery {
+	color: #969698;
+	font-size: 12px;
+}
+
+.messenger-recovery p {
+	font-size: 12px !important;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.messenger-recovery i {
+    font-size: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
